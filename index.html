@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nancy Sahu – Rainbow Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <!-- Main JS -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Smooth rainbow loader -->
+  <div class="preloader">
+    <div class="loader-ring"></div>
+    <div class="loader-text">Crafting Nancy’s World…</div>
+  </div>
+
+  <header class="header" id="top">
+    <div class="logo">
+      <span class="logo-icon">N</span>
+      <span class="logo-text">Nancy<span>Sahu</span></span>
+    </div>
+
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#projects">Highlights</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Floating rainbow background -->
+  <div class="gradient-orbit"></div>
+
+  <main>
+    <!-- HERO -->
+    <section class="section hero" id="hero">
+      <div class="hero-content">
+        <p class="hero-pill">Network Marketer • Mentor • Speaker</p>
+        <h1>
+          Hi, I’m <span class="rainbow-text">Nancy Sahu</span><br />
+          I build leaders in the world of direct selling.
+        </h1>
+        <p class="hero-subtitle">
+          Blending mindset, systems and storytelling to help people design a life of freedom, impact and abundance.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn primary">Let’s Collaborate</a>
+          <a href="#journey" class="btn ghost">View Journey</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">6+</span>
+            <span class="stat-label">Years in Direct Selling</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">5K+</span>
+            <span class="stat-label">People Trained</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">30+</span>
+            <span class="stat-label">Stage Talks</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-card orbit-card">
+          <div class="badge badge-top">Online Mentor</div>
+          <div class="profile-circle">
+            <div class="profile-inner"></div>
+          </div>
+          <div class="hero-name">Nancy Sahu</div>
+          <div class="hero-role">Network Marketing Leader</div>
+          <div class="hero-tags">
+            <span>Mindset</span>
+            <span>Leadership</span>
+            <span>Freedom</span>
+          </div>
+        </div>
+
+        <div class="floating-tag tag-1">Daily Action</div>
+        <div class="floating-tag tag-2">Team Growth</div>
+        <div class="floating-tag tag-3">Personal Brand</div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <h2>About Nancy</h2>
+        <p>From small-town dreamer to a multi-city mentor, building a community of confident entrepreneurs.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Who I Am</h3>
+          <p>
+            I help people see possibilities they never thought existed, using simple systems, daily habits and powerful mindset strategies tailored for direct selling.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>What I Do</h3>
+          <p>
+            I design trainings, events and online content that make network marketing simple to start, practical to grow and inspiring to sustain for the long term.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>How I Work</h3>
+          <p>
+            My work blends story-based learning, practical tools, and accountability so every team member knows exactly what to do today, this week and this month.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY / TIMELINE -->
+    <section class="section journey" id="journey">
+      <div class="section-heading">
+        <h2>Journey in Color</h2>
+        <p>A rainbow timeline of consistent action, setbacks, comebacks and breakthroughs.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <span class="year">2019</span>
+            <h3>First Step into Direct Selling</h3>
+            <p>Started as a beginner, learning presentations, handling objections and building confidence one call at a time.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <span class="year">2021</span>
+            <h3>Building the Core Team</h3>
+            <p>Grew a focused core team and created simple duplicable systems for daily action and goal tracking.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <span class="year">2023</span>
+            <h3>Stage & Digital Presence</h3>
+            <p>Started training on stage and online, sharing real stories and frameworks to inspire thousands.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="content">
+            <span class="year">2025</span>
+            <h3>Mentoring at Scale</h3>
+            <p>Designed structured mentorship paths for serious learners who want to turn this into a full-time profession.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS / HIGHLIGHTS -->
+    <section class="section projects" id="projects">
+      <div class="section-heading">
+        <h2>Signature Highlights</h2>
+        <p>Sessions, systems and stories that define Nancy’s unique style of leadership.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-label">Workshop</div>
+          <h3>Rainbow Freedom Blueprint</h3>
+          <p>
+            A step-by-step system that turns a new distributor into a confident presenter through color-coded daily actions.
+          </p>
+          <ul class="project-tags">
+            <li>Onboarding</li>
+            <li>Mindset</li>
+            <li>Habits</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-label">Event</div>
+          <h3>Leaders in Spectrum</h3>
+          <p>
+            A high-energy event format that uses stages of the rainbow to represent levels of growth and leadership milestones.
+          </p>
+          <ul class="project-tags">
+            <li>Events</li>
+            <li>Team Culture</li>
+            <li>Recognition</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-label">Content</div>
+          <h3>30-Day Rainbow Routine</h3>
+          <p>
+            Daily reels and micro-lessons that make complex concepts fun and visually memorable for the social media generation.
+          </p>
+          <ul class="project-tags">
+            <li>Reels</li>
+            <li>Branding</li>
+            <li>Consistency</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="section-heading">
+        <h2>Let’s Build Something</h2>
+        <p>Want to create training, events or digital content together? Share a few details and let’s talk.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h3>Collaboration Ideas</h3>
+          <p>• Team trainings and events<br>• Personal brand photoshoot & website<br>• Online course or mentorship series</p>
+          <p class="contact-note">This is a concept portfolio. Replace details with Nancy’s actual contact once ready.</p>
+        </div>
+
+        <form class="contact-form">
+          <div class="field">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+
+          <div class="field">
+            <label for="email">Email / WhatsApp</label>
+            <input type="text" id="email" placeholder="How can Nancy reach you?" required>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="Share what you want to build with Nancy…" required></textarea>
+          </div>
+
+          <button type="submit" class="btn primary full">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Designed with a rainbow mindset for Nancy Sahu • Concept Portfolio</p>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
